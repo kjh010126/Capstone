@@ -25,11 +25,11 @@ PC 앱 클래스는 다음 네 영역으로 구분할 수 있다.
 기능: 일반 사용자가 PC 앱에 로그인하는 화면이다.
 
 주요 어트리뷰트
-- `userId: String` : 일반 사용자 ID 또는 학번 입력값
+- `userId: String` : 학번 입력값
 - `password: String` : 비밀번호 입력값
 
 주요 메소드
-- `inputUserId(): void` : 사용자 ID 입력 처리
+- `inputUserId(): void` : 사용자 학번 입력 처리
 - `inputPassword(): void` : 비밀번호 입력 처리
 - `requestLogin(): void` : 로그인 요청 수행
 - `moveToAdminLogin(): void` : 관리자 로그인 화면으로 이동
