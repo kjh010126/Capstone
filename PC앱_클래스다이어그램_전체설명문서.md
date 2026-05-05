@@ -51,7 +51,7 @@
 - PcMainScreen
 - AdminDashboardScreen
 
-### 3.2 제어 클래스
+### 3.2 매니저 클래스
 - AdminAuthManager
 - PcUsageManager
 - AdminManager
